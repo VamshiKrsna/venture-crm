@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import TopNav from "@/components/topNav";
+import TopNav from "@/components/LandingPage/TopNav";
 
 const interMedium = Inter();
 
