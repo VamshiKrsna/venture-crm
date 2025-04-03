@@ -3,7 +3,10 @@ import LogoFull from '@/assets/logoFull.svg';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
 
-const InterMedium = Inter();
+const InterMedium = Inter({
+    subsets: ['latin'],
+    weight: ['400', '500', '600']
+});
 
 export default function TopNav(){
     return(

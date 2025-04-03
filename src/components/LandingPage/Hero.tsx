@@ -3,7 +3,10 @@ import { Globe } from "lucide-react";
 import Image from "next/image";
 import Dashboard from "@/assets/Dashboard.png";
 
-const InterMedium = Inter();
+const InterMedium = Inter({
+    subsets: ['latin'],
+    weight: ['400', '500', '600']
+});
 
 export default function Hero() {
     return (
